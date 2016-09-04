@@ -42,7 +42,7 @@ static void main_window_load(Window *window) {
     GRect(0, 30, bounds.size.w, 50));
 
   s_emoji_layer = text_layer_create(
-    GRect(50, 75, 180, 180)
+    GRect(49, 74, 180, 180)
   );
   
   // watchfaceっぽくする
