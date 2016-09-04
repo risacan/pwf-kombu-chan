@@ -1,8 +1,7 @@
 #include <pebble.h>
 
 static Window *s_main_window;
-static TextLayer *s_time_layer;
-static TextLayer *s_emoji_layer;
+static TextLayer *s_time_layer, *s_emoji_layer;
 static GFont s_time_font;
 static BitmapLayer *s_background_layer;
 static GBitmap *s_background_bitmap;
